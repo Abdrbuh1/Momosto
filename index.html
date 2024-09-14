@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر مومو للتسوق</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>متجر مومو للتسوق</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products-section">
+        <h2>منتجاتنا</h2>
+        <div id="product-list" class="products"></div>
+    </section>
+
+    <section id="add-product-section">
+        <h2>إضافة منتج جديد</h2>
+        <form id="add-product-form">
+            <input type="text" id="product-name" placeholder="اسم المنتج" required>
+            <input type="number" id="product-price" placeholder="سعر المنتج" required>
+            <input type="text" id="product-image" placeholder="رابط صورة المنتج" required>
+            <button type="submit">إضافة المنتج</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2024 متجر مومو للتسوق</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
